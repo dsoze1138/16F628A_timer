@@ -1,0 +1,65 @@
+## SCL Builder Setup File: Do not edit!!
+
+## VERSION: 3.60.00.00
+## FORMAT:  v2.00.01
+## DEVICE:  PIC16F628A
+
+## PINREGACTIONS
+cyc
+No Repeat
+--
+&
+## ADVPINREGACTIONS
+--
+&
+--
+COND1
+Any
+
+
+
+
+
+
+--
+&
+## CLOCK
+&
+## STIMULUSFILE
+&
+## RESPONSEFILE
+&
+## ASYNCH
+Pin
+RB4
+Set High
+
+SW1 Pressed
+-1
+--
+Pin
+RB4
+Set Low
+
+SW1 Released
+-1
+--
+Pin
+RA5
+Set Low
+
+SW2 Pressed
+-1
+--
+Pin
+RA5
+Set High
+
+SW2 Released
+-1
+--
+&
+## ADVANCEDSCL
+
+0
+&
